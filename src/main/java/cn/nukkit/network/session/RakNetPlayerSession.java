@@ -289,6 +289,7 @@ public class RakNetPlayerSession extends SimpleChannelInboundHandler<RakMessage>
                             return;
                         }else if(packets == null){
                             buffer.resetReaderIndex();
+                            return;
                         }else{
                             return;
                         }
